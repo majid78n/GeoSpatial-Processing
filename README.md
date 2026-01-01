@@ -45,7 +45,25 @@ from burnt_area_analyzer import quick_analyze
 total_area = quick_analyze('satellite_image.tif', threshold=-0.35, save_outputs=True)
 print(f"Total burnt area: {total_area:.2f} km²")
 ```
+## Important Note on Band Selection
 
+This library is designed primarily for **clipped Sentinel satellite images**.  
+Band numbers for Sentinel are **different from Landsat, MODIS, or other satellite datasets**.
+
+**To use this library with other images**, you must explicitly define the correct bands when creating a `QuickAnalyzer` object. For example:
+
+```python
+from burnt_area_analyzer import QuickAnalyzer
+
+analyzer = QuickAnalyzer(
+    "your_image.tif",
+    nir_band=4,    # Near-Infrared band
+    swir_band=5,   # Shortwave Infrared band
+    red_band=1,
+    green_band=2,
+    blue_band=3
+)
+⚠️ Warning: Incorrect band assignment can lead to wrong RGB visualization or invalid NBR/burnt area calculations. Always check your image’s band order before analysis.
 ### Advanced Usage with Class
 
 ```python
