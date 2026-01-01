@@ -325,7 +325,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/burnt-area-analyzer.git
+git clone https://github.com/majid78n/GeoSpatial-Processing.git
 cd burnt-area-analyzer
 pip install -r requirements-dev.txt
 ```
@@ -344,29 +344,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - *Initial work*
-
-## 🙏 Acknowledgments
-
-- Built with [rasterio](https://github.com/rasterio/rasterio) for geospatial raster I/O
-- Uses [folium](https://github.com/python-visualization/folium) for interactive mapping
-- Inspired by USGS and NASA fire monitoring methodologies
+- Rohollah Naeijian - *M.Sc. student in Geoinformatics engineering at PoliMi*
 
 ## 📧 Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@majid78n](https://github.com/majid78n)
+- Email: rohollah.naeijian@mail.polimi.it
+![PoliMi Logo](https://upload.wikimedia.org/wikipedia/it/b/be/Logo_Politecnico_Milano.png)
 
-## 🗺️ Roadmap
 
-- [ ] Add dNBR (differenced NBR) support for pre/post fire comparison
-- [ ] Support for multiple NBR thresholds visualization
-- [ ] Batch processing for multiple images
-- [ ] Export to GeoJSON/Shapefile
-- [ ] Integration with MODIS active fire data
-- [ ] Command-line interface (CLI)
-- [ ] Docker container for easy deployment
-
----
-
-**⭐ If you find this library useful, please consider giving it a star!**
