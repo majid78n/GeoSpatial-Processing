@@ -252,15 +252,15 @@ from burnt_area_analyzer import QuickAnalyzer
 
 # Landsat 8 band configuration
 analyzer = QuickAnalyzer(
-    'LC08_scene.tif',
-    nir_band=5,   # Landsat 8 NIR
-    swir_band=7,  # Landsat 8 SWIR2
-    red_band=4,
-    green_band=3,
-    blue_band=2
+    'PostFire_Landsat8.tif',
+    nir_band=4,   # Landsat 8 NIR => SR_B5
+    swir_band=6,  # Landsat 8 SWIR2 => SR_B7
+    red_band=1,   # Landsat 8 Red => SR_B4
+    green_band=2, # Landsat 8 Green => SR_B3
+    blue_band=3   # Landsat 8 Blue => SR_B2
 )
 
-area = analyzer.analyze(threshold=-0.3)
+area = analyzer.analyze(threshold=-0.1)
 ```
 
 ### Example 2: Sentinel-2 Analysis
@@ -270,12 +270,12 @@ from burnt_area_analyzer import QuickAnalyzer
 
 # Sentinel-2 band configuration
 analyzer = QuickAnalyzer(
-    'S2A_scene.tif',
-    nir_band=8,   # Sentinel-2 NIR
-    swir_band=12, # Sentinel-2 SWIR2
-    red_band=4,
-    green_band=3,
-    blue_band=2
+    'sentinel_sample_image.tif',
+    nir_band=4,   # Sentinel-2 NIR => B8
+    swir_band=5, # Sentinel-2 SWIR2 => B12
+    red_band=3,   # Sentinel-2 => B4
+    green_band=2, # Sentinel-2 => B3
+    blue_band=1   # Sentinel-2 => B2
 )
 
 area = analyzer.analyze(threshold=-0.35, save_outputs=True)
