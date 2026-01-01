@@ -29,7 +29,7 @@ pip install rasterio numpy matplotlib folium ipython
 ### Install from Source
 
 ```bash
-git clone https://github.com/yourusername/burnt-area-analyzer.git
+git clone https://github.com/majid78n/GeoSpatial-Processing.git
 cd burnt-area-analyzer
 pip install -r requirements.txt
 ```
