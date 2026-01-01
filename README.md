@@ -23,7 +23,7 @@ Burnt Area Quick Analyzer is a simplified yet powerful tool designed for quick a
 ### Prerequisites
 
 ```bash
-pip install rasterio numpy matplotlib folium ipython
+conda install rasterio numpy matplotlib folium ipython
 ```
 
 ### Install from Source
@@ -31,7 +31,7 @@ pip install rasterio numpy matplotlib folium ipython
 ```bash
 git clone https://github.com/majid78n/GeoSpatial-Processing.git
 cd burnt-area-analyzer
-pip install -r requirements.txt
+conda env create -f Requirements.yml
 ```
 
 ## 📖 Quick Start
