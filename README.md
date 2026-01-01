@@ -63,7 +63,9 @@ analyzer = QuickAnalyzer(
     green_band=2,
     blue_band=3
 )
+```
 ⚠️ Warning: Incorrect band assignment can lead to wrong RGB visualization or invalid NBR/burnt area calculations. Always check your image’s band order before analysis.
+
 ### Advanced Usage with Class
 
 ```python
