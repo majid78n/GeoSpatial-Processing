@@ -338,25 +338,6 @@ analyzer.show_info()  # Check resolution and CRS
 | -0.27 to -0.44 | Moderate-high |
 | < -0.44 | High severity |
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### Development Setup
-
-```bash
-git clone https://github.com/majid78n/GeoSpatial-Processing.git
-cd burnt-area-analyzer
-pip install -r requirements-dev.txt
-```
-
-### Guidelines
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
