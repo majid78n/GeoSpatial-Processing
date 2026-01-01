@@ -345,6 +345,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
+- Tarig Mohammed Nouraldaim Ahmed - *M.Sc. student in Geoinformatics engineering at PoliMi*
 - Rohollah Naeijian - *M.Sc. student in Geoinformatics engineering at PoliMi*
 
 ## 📧 Contact
