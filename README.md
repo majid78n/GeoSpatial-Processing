@@ -353,7 +353,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- GitHub: [@majid78n](https://github.com/majid78n)
+- GitHub: [@majid78n](https://github.com/majid78n)  [@TARIG3313](https://github.com/TARIG3313)
 - Email: 1) rohollah.naeijian@mail.polimi.it 2) tarigmohammed@mail.polimi.it 
 <img src="https://upload.wikimedia.org/wikipedia/it/b/be/Logo_Politecnico_Milano.png" alt="PoliMi Logo" width="100"/> 
 
