@@ -36,6 +36,18 @@ conda activate geo
 pip install -e .
 
 ```
+## Installation Instructions (Windows)
+
+Some system installations like QGIS or PostGIS can interfere with geospatial libraries. Follow these steps to set up a clean environment:
+
+### Step 1 — Remove conflicting PROJ references (Windows only)
+
+1. Open **Environment Variables**:
+   - Press **Win + S**, type **“Environment Variables”**, and select **Edit system environment variables → Environment Variables**.
+
+2. In both **User variables** and **System variables**, delete the following variables if they exist:
+
+
 
 ## 📖 Quick Start
 
