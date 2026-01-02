@@ -40,12 +40,20 @@ pip install -e .
 
 Some system installations like QGIS or PostGIS can interfere with geospatial libraries. Follow these steps to set up a clean environment:
 
-### Step 1 — Remove conflicting PROJ references (Windows only)
+### IMPORTANT — Remove conflicting PROJ references (Windows only)
 
 1. Open **Environment Variables**:
    - Press **Win + S**, type **“Environment Variables”**, and select **Edit system environment variables → Environment Variables**.
 
 2. In both **User variables** and **System variables**, delete the following variables if they exist:
+PROJ_LIB
+GDAL_DATA
+
+3. Check your **PATH** for any folders from QGIS, PostGIS, or OSGeo and temporarily remove them (or move them **after** Conda paths).
+
+> This ensures the Conda environment uses its own PROJ/GDAL libraries, avoiding EPSG errors.
+
+---
 
 
 
