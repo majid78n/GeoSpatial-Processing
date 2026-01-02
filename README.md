@@ -31,9 +31,8 @@ conda install rasterio numpy matplotlib folium ipython
 ```bash
 git clone https://github.com/majid78n/GeoSpatial-Processing.git
 cd GeoSpatial-Processing
-conda env create -f Requirements.yml
-conda activate geo
-pip install -e .
+conda env create -f environment.yml
+conda activate burnt-area-analyzer
 
 ```
 ## Installation Instructions (Windows)
