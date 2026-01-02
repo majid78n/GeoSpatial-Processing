@@ -12,7 +12,8 @@ import folium
 from typing import Optional
 from IPython.display import display
 import os
-
+import pyproj
+os.environ["PROJ_LIB"] = pyproj.datadir.get_data_dir()
 
 class QuickAnalyzer:
     """
@@ -417,4 +418,5 @@ if __name__ == "__main__":
     print("  analyzer = QuickAnalyzer('image.tif')")
     print("  area = analyzer.analyze()")
     print("\n  OR use the convenience function:")
+
     print("  area = quick_analyze('image.tif', save_outputs=True)")
